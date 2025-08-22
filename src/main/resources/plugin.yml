@@ -19,6 +19,7 @@ depend:
 - Supreme
 - Networks
 - TranscEndence
+- MythicMobs
 
 softdepend:
 - RykenSlimefunCustomizer

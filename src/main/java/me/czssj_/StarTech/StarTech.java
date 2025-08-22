@@ -120,6 +120,17 @@ public class StarTech extends JavaPlugin implements SlimefunAddon
         {
             LOGGER.info("前置 末地科技(TranscEndence) 已加载");
         }
+
+        if (!getServer().getPluginManager().isPluginEnabled("MythicMobs"))
+        {
+            LOGGER.warning("本插件需要 MythicMobs 才能运行!");
+            getServer().getPluginManager().disablePlugin(this);
+            return;
+        }
+        else
+        {
+            LOGGER.info("前置 MythicMobs 已加载");
+        }
         
         if (!getServer().getPluginManager().isPluginEnabled("Slimefun"))
         {
