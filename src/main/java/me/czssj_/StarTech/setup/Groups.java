@@ -4,9 +4,8 @@ import org.bukkit.Material;
 
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 
-public class item 
+public class Groups 
 {
-    //groups
     public static final SlimefunItemStack GROUP_MAIN = new SlimefunItemStack(
         "SST_GROUP_MAIN",
         "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQzZDI1MGUyNWJiY2EzYTYyYmU1YjNlZjAyY2ZjYWI2ZGNkYzQyNDg4NGM5YTdkNWNjOTVjOWQwIn19fQ==",

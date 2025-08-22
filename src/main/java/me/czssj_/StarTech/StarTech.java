@@ -20,6 +20,7 @@ import org.json.JSONObject;
 
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.config.Config;
+import me.czssj_.StarTech.category.Materials.Materials_Setup;
 
 public class StarTech extends JavaPlugin implements SlimefunAddon 
 {
@@ -38,6 +39,8 @@ public class StarTech extends JavaPlugin implements SlimefunAddon
         {
             checkForUpdates();
         }
+
+        Materials_Setup.recipe(this);
     }
 
     @Override
