@@ -249,6 +249,13 @@ public class Materials_Setup
             null,null,null
         }).register(plugin);
 
+        new SlimefunItem(GROUP_MATERIALS, Materials.CHAOS_SINGULARITY,
+        RecipeType.NULL, new ItemStack[]{
+            null,null,null,
+            null,null,null,
+            null,null,null
+        }).register(plugin);
+
         new SlimefunItem(GROUP_MATERIALS, Materials.REDSTONE_CORE_DEBRIS,
         RecipeType.NULL, new ItemStack[]{
             null,null,null,
@@ -271,6 +278,13 @@ public class Materials_Setup
         }).register(plugin);
 
         new SlimefunItem(GROUP_MATERIALS, Materials.BOX_OF_TRICKS,
+        RecipeType.NULL, new ItemStack[]{
+            null,null,null,
+            null,null,null,
+            null,null,null
+        }).register(plugin);
+
+        new SlimefunItem(GROUP_MATERIALS, Materials.BOX_OF_CHAOS,
         RecipeType.NULL, new ItemStack[]{
             null,null,null,
             null,null,null,
@@ -333,6 +347,130 @@ public class Materials_Setup
             null,null,null
         }).register(plugin);
 
-        
+        new SlimefunItem(GROUP_MATERIALS, Materials.LUNAR_MARE_BASALT,
+        RecipeType.NULL, new ItemStack[]{
+            null,null,null,
+            null,null,null,
+            null,null,null
+        }).register(plugin);
+
+        new SlimefunItem(GROUP_MATERIALS, Materials.KREEP,
+        RecipeType.NULL, new ItemStack[]{
+            null,null,null,
+            null,null,null,
+            null,null,null
+        }).register(plugin);
+
+        new SlimefunItem(GROUP_MATERIALS, Materials.NIOBIUM_ORE,
+        RecipeType.NULL, new ItemStack[]{
+            null,null,null,
+            null,null,null,
+            null,null,null
+        }).register(plugin);
+
+        new SlimefunItem(GROUP_MATERIALS, Materials.TANTALUM_ORE,
+        RecipeType.NULL, new ItemStack[]{
+            null,null,null,
+            null,null,null,
+            null,null,null
+        }).register(plugin);
+
+        new SlimefunItem(GROUP_MATERIALS, Materials.LITHIUM_ORE,
+        RecipeType.NULL, new ItemStack[]{
+            null,null,null,
+            null,null,null,
+            null,null,null
+        }).register(plugin);
+
+        new SlimefunItem(GROUP_MATERIALS, Materials.KREEP_LANTHANUM_ALLOY,
+        RecipeType.NULL, new ItemStack[]{
+            null,null,null,
+            null,null,null,
+            null,null,null
+        }).register(plugin);
+
+        new SlimefunItem(GROUP_MATERIALS, Materials.HELIUM,
+        RecipeType.NULL, new ItemStack[]{
+            null,null,null,
+            null,null,null,
+            null,null,null
+        }).register(plugin);
+
+        new SlimefunItem(GROUP_MATERIALS, Materials.LANTHANUM_DUST,
+        RecipeType.NULL, new ItemStack[]{
+            null,null,null,
+            null,null,null,
+            null,null,null
+        }).register(plugin);
+
+        new SlimefunItem(GROUP_MATERIALS, Materials.LITHIUM_DUST,
+        RecipeType.NULL, new ItemStack[]{
+            null,null,null,
+            null,null,null,
+            null,null,null
+        }).register(plugin);
+
+        new SlimefunItem(GROUP_MATERIALS, Materials.NIOBIUM_DUST,
+        RecipeType.NULL, new ItemStack[]{
+            null,null,null,
+            null,null,null,
+            null,null,null
+        }).register(plugin);
+
+        new SlimefunItem(GROUP_MATERIALS, Materials.TANTALUM_DUST,
+        RecipeType.NULL, new ItemStack[]{
+            null,null,null,
+            null,null,null,
+            null,null,null
+        }).register(plugin);
+
+        new SlimefunItem(GROUP_MATERIALS, Materials.OLYMPIAN_BASALT,
+        RecipeType.NULL, new ItemStack[]{
+            null,null,null,
+            null,null,null,
+            null,null,null
+        }).register(plugin);
+
+        new SlimefunItem(GROUP_MATERIALS, Materials.MONTMORILLONITE,
+        RecipeType.NULL, new ItemStack[]{
+            null,null,null,
+            null,null,null,
+            null,null,null
+        }).register(plugin);
+
+        new SlimefunItem(GROUP_MATERIALS, Materials.KAOLINITE,
+        RecipeType.NULL, new ItemStack[]{
+            null,null,null,
+            null,null,null,
+            null,null,null
+        }).register(plugin);
+
+        new SlimefunItem(GROUP_MATERIALS, Materials.HEAVY_SAND,
+        RecipeType.NULL, new ItemStack[]{
+            null,null,null,
+            null,null,null,
+            null,null,null
+        }).register(plugin);
+
+        new SlimefunItem(GROUP_MATERIALS, Materials.HEMATITE,
+        RecipeType.NULL, new ItemStack[]{
+            null,null,null,
+            null,null,null,
+            null,null,null
+        }).register(plugin);
+
+        new SlimefunItem(GROUP_MATERIALS, Materials.HYDROGEN_CYANIDE,
+        RecipeType.NULL, new ItemStack[]{
+            null,null,null,
+            null,null,null,
+            null,null,null
+        }).register(plugin);
+
+        new SlimefunItem(GROUP_MATERIALS, Materials.PLUTO_DIAMOND_ORE,
+        RecipeType.NULL, new ItemStack[]{
+            null,null,null,
+            null,null,null,
+            null,null,null
+        }).register(plugin);
     }
 }

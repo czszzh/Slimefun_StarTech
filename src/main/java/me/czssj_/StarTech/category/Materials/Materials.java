@@ -1,6 +1,9 @@
 package me.czssj_.StarTech.category.Materials;
 
 import org.bukkit.Material;
+import org.bukkit.enchantments.Enchantment;
+import org.bukkit.inventory.ItemFlag;
+import org.bukkit.inventory.meta.ItemMeta;
 
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 
@@ -210,6 +213,12 @@ public class Materials
         "§f行星奇点"
     );
 
+    public static final SlimefunItemStack CHAOS_SINGULARITY = new SlimefunItemStack(
+        "SST_CHAOS_SINGULARITY",
+        Material.NETHER_STAR,
+        "§0混沌奇点"
+    );
+
     public static final SlimefunItemStack REDSTONE_CORE_DEBRIS = new SlimefunItemStack(
         "SST_REDSTONE_CORE_DEBRIS",
         "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzdmMDBlZjIyMGJhZGI5MjU1NjFlMjJkZWJhYTcyNjMyMDY5MjEwNDdjZDgzZWYzYzg0ZGY0OTBiYmNkZDE4YiJ9fX0=",
@@ -232,6 +241,12 @@ public class Materials
         "SST_BOX_OF_TRICKS",
         "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJlZjQ0MGE2MzIzNWVkNDExN2NlYmY3MTg2MDAxYmRiMzY3M2NkMjlhMDRmMGJkMDg0ZDdkZGEyOGExZmYyZCJ9fX0=",
         "§3诡计之盒"
+    );
+
+    public static final SlimefunItemStack BOX_OF_CHAOS = new SlimefunItemStack(
+        "SST_BOX_OF_CHAOS",
+        Material.CHEST,
+        "§0混沌之盒"
     );
 
     public static final SlimefunItemStack COLLAPSE_REDSTONE = new SlimefunItemStack(
@@ -281,4 +296,121 @@ public class Materials
         "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQ5YzBmNTcxYTViYzAwMTRmMzVjOGQzNzFmMzFmNmI1MWMxNjg2ZDcxMzU5NzU5YmFlODhjNjUzNzQ4MWEzYSJ9fX0=",
         "§9坍缩青金石"
     );
+
+    public static final SlimefunItemStack LUNAR_MARE_BASALT = new SlimefunItemStack(
+        "SST_LUNAR_MARE_BASALT",
+        Material.BASALT,
+        "§b月海玄武岩"
+    );
+
+    public static final SlimefunItemStack KREEP = new SlimefunItemStack(
+        "SST_KREEP",
+        Material.IRON_ORE,
+        "§f克里普岩"
+    );
+
+    public static final SlimefunItemStack NIOBIUM_ORE = new SlimefunItemStack(
+        "SST_NIOBIUM_ORE",
+        Material.GOLD_ORE,
+        "§7铌碎矿"
+    );
+
+    public static final SlimefunItemStack TANTALUM_ORE = new SlimefunItemStack(
+        "SST_TANTALUM_ORE",
+        Material.IRON_ORE,
+        "§7钽碎矿"
+    );
+
+    public static final SlimefunItemStack LITHIUM_ORE = new SlimefunItemStack(
+        "SST_LITHIUM_ORE",
+        Material.IRON_ORE,
+        "§b锂碎矿"
+    );
+
+    public static final SlimefunItemStack KREEP_LANTHANUM_ALLOY = new SlimefunItemStack(
+        "SST_KREEP_LANTHANUM_ALLOY",
+        Material.IRON_INGOT,
+        "§f§l克里普镧合金"
+    );
+
+    public static final SlimefunItemStack HELIUM = new SlimefunItemStack(
+        "SST_HELIUM",
+        Material.GLASS_PANE,
+        "§b氦"
+    );
+
+    public static final SlimefunItemStack LANTHANUM_DUST = new SlimefunItemStack(
+        "SST_LANTHANUM_DUST",
+        Material.SUGAR,
+        "§f镧粉"
+    );
+
+    public static final SlimefunItemStack LITHIUM_DUST = new SlimefunItemStack(
+        "SST_LITHIUM_DUST",
+        Material.SUGAR,
+        "§b锂粉"
+    );
+
+    public static final SlimefunItemStack NIOBIUM_DUST = new SlimefunItemStack(
+        "SST_NIOBIUM_DUST",
+        Material.GUNPOWDER,
+        "§7铌粉"
+    );
+
+    public static final SlimefunItemStack TANTALUM_DUST = new SlimefunItemStack(
+        "SST_TANTALUM_DUST",
+        Material.SUGAR,
+        "§7钽粉"
+    );
+
+    public static final SlimefunItemStack OLYMPIAN_BASALT = new SlimefunItemStack(
+        "SST_OLYMPIAN_BASALT",
+        Material.BASALT,
+        "§3奥林波斯玄武岩"
+    );
+
+    public static final SlimefunItemStack MONTMORILLONITE = new SlimefunItemStack(
+        "SST_MONTMORILLONITE",
+        Material.CALCITE,
+        "§f蒙脱石"
+    );
+
+    public static final SlimefunItemStack KAOLINITE = new SlimefunItemStack(
+        "SST_KAOLINITE",
+        Material.TUFF,
+        "§7高岭石"
+    );
+
+    public static final SlimefunItemStack HEAVY_SAND = new SlimefunItemStack(
+        "SST_HEAVY_SAND",
+        Material.RED_SAND,
+        "§f重沙"
+    );
+
+    public static final SlimefunItemStack HEMATITE = new SlimefunItemStack(
+        "SST_HEMATITE",
+        Material.IRON_ORE,
+        "§e赤铁矿"
+    );
+
+    public static final SlimefunItemStack HYDROGEN_CYANIDE= new SlimefunItemStack(
+        "SST_HYDROGEN_CYANIDE",
+        Material.WHITE_STAINED_GLASS_PANE,
+        "§5氰化氢",
+        "是毒 还是药?"
+    );
+    static 
+    {
+        HYDROGEN_CYANIDE.addUnsafeEnchantment(Enchantment.BINDING_CURSE, 1);
+        ItemMeta meta = HYDROGEN_CYANIDE.getItemMeta();
+        meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
+        HYDROGEN_CYANIDE.setItemMeta(meta);
+    }
+
+    public static final SlimefunItemStack PLUTO_DIAMOND_ORE = new SlimefunItemStack(
+        "SST_PLUTO_DIAMOND_ORE",
+        Material.DIAMOND_ORE,
+        "§b冥王钻矿"
+    );
+    
 }
