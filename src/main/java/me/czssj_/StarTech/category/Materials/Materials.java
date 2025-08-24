@@ -147,8 +147,8 @@ public class Materials
         "§7净化的月壤"
     );
 
-    public static final SlimefunItemStack PURIFIED_MARS_ROCK = new SlimefunItemStack(
-        "SST_PURIFIED_MARS_ROCK",
+    public static final SlimefunItemStack PURIFIED_IGNEOUS_ROCK = new SlimefunItemStack(
+        "SST_PURIFIED_IGNEOUS_ROCK",
         Material.ORANGE_CONCRETE,
         "§7净化的火岩"
     );

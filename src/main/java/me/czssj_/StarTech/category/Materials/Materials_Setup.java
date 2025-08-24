@@ -172,7 +172,7 @@ public class Materials_Setup
             null,null,null
         }).register(plugin);
 
-        new SlimefunItem(GROUP_MATERIALS, Materials.PURIFIED_MARS_ROCK,
+        new SlimefunItem(GROUP_MATERIALS, Materials.PURIFIED_IGNEOUS_ROCK,
         RecipeType.NULL, new ItemStack[]{
             null,null,null,
             null,null,null,
