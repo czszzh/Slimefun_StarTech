@@ -20,7 +20,18 @@ import org.json.JSONObject;
 
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.config.Config;
+import me.czssj_.StarTech.category.Armor.Armor_Setup;
+import me.czssj_.StarTech.category.Craft.Craft_Setup;
+import me.czssj_.StarTech.category.Food.Food_Setup;
+import me.czssj_.StarTech.category.Generators.Generators_Setup;
+import me.czssj_.StarTech.category.Legend.Legend_Setup;
+import me.czssj_.StarTech.category.Machines.Machines_Setup;
 import me.czssj_.StarTech.category.Materials.Materials_Setup;
+import me.czssj_.StarTech.category.MobTech.MobTech_Setup;
+import me.czssj_.StarTech.category.Network.Network_Setup;
+import me.czssj_.StarTech.category.Tools.Tools_Setup;
+import me.czssj_.StarTech.category.Transport.Transport_Setup;
+import me.czssj_.StarTech.category.Weapons.Weapons_Setup;
 
 public class StarTech extends JavaPlugin implements SlimefunAddon 
 {
@@ -41,6 +52,17 @@ public class StarTech extends JavaPlugin implements SlimefunAddon
         }
 
         Materials_Setup.recipe(this);
+        Machines_Setup.recipe(this);
+        Generators_Setup.recipe(this);
+        Craft_Setup.recipe(this);
+        MobTech_Setup.recipe(this);
+        Transport_Setup.recipe(this);
+        Food_Setup.recipe(this);
+        Network_Setup.recipe(this);
+        Tools_Setup.recipe(this);
+        Weapons_Setup.recipe(this);
+        Armor_Setup.recipe(this);
+        Legend_Setup.recipe(this);
     }
 
     @Override

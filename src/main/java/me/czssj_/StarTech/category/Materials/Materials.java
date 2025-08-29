@@ -1,9 +1,10 @@
 package me.czssj_.StarTech.category.Materials;
 
+import java.util.Arrays;
+
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemFlag;
-import org.bukkit.inventory.meta.ItemMeta;
 
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 
@@ -393,19 +394,18 @@ public class Materials
         "§e赤铁矿"
     );
 
-    public static final SlimefunItemStack HYDROGEN_CYANIDE= new SlimefunItemStack(
+    public static final SlimefunItemStack HYDROGEN_CYANIDE = new SlimefunItemStack(
         "SST_HYDROGEN_CYANIDE",
         Material.WHITE_STAINED_GLASS_PANE,
         "§5氰化氢",
-        "是毒 还是药?"
+        meta -> {
+            meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
+            meta.setLore(Arrays.asList(
+                "是毒 还是药?"
+            ));
+        }
     );
-    static 
-    {
-        HYDROGEN_CYANIDE.addUnsafeEnchantment(Enchantment.BINDING_CURSE, 1);
-        ItemMeta meta = HYDROGEN_CYANIDE.getItemMeta();
-        meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
-        HYDROGEN_CYANIDE.setItemMeta(meta);
-    }
+    static { HYDROGEN_CYANIDE.addUnsafeEnchantment(Enchantment.BINDING_CURSE, 1); }
 
     public static final SlimefunItemStack PLUTO_DIAMOND_ORE = new SlimefunItemStack(
         "SST_PLUTO_DIAMOND_ORE",

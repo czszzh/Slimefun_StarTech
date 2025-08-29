@@ -1,80 +1,66 @@
-package me.czssj_.StarTech.category.Network;
+package me.czssj_.StarTech.category.Craft;
 
 import org.bukkit.inventory.ItemStack;
 
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import me.czssj_.StarTech.StarTech;
-import static me.czssj_.StarTech.setup.register.GROUP_NETWORK;
+import static me.czssj_.StarTech.setup.register.GROUP_CRAFT;
 
-public class Network_Setup 
+public class Craft_Setup 
 {
     public static void recipe(StarTech plugin)
     {
-        new SlimefunItem(GROUP_NETWORK, Network.NET_DEL_EQUIPMENT,
+        new SlimefunItem(GROUP_CRAFT, Craft.CEILING_LIGHT,
         RecipeType.NULL, new ItemStack[]{
             null,null,null,
             null,null,null,
             null,null,null
         }).register(plugin);
 
-        new SlimefunItem(GROUP_NETWORK, Network.NET_DEL_HEAD,
+        new SlimefunItem(GROUP_CRAFT, Craft.SHOW_BLOCK,
         RecipeType.NULL, new ItemStack[]{
             null,null,null,
             null,null,null,
             null,null,null
         }).register(plugin);
 
-        new SlimefunItem(GROUP_NETWORK, Network.NET_DEL_WEAPON,
+        new SlimefunItem(GROUP_CRAFT, Craft.TEMPERED_GLASS,
         RecipeType.NULL, new ItemStack[]{
             null,null,null,
             null,null,null,
             null,null,null
         }).register(plugin);
 
-        new SlimefunItem(GROUP_NETWORK, Network.NET_WHITELIST,
+        new SlimefunItem(GROUP_CRAFT, Craft.MSTONE,
         RecipeType.NULL, new ItemStack[]{
             null,null,null,
             null,null,null,
             null,null,null
         }).register(plugin);
 
-        new SlimefunItem(GROUP_NETWORK, Network.NET_CREATER,
+        new SlimefunItem(GROUP_CRAFT, Craft.TEMPERED_OBSIDIAN,
         RecipeType.NULL, new ItemStack[]{
             null,null,null,
             null,null,null,
             null,null,null
         }).register(plugin);
 
-        new SlimefunItem(GROUP_NETWORK, Network.NET_CHUNK_CATCHER,
+        new SlimefunItem(GROUP_CRAFT, Craft.TEMPERED_GLASS_PANE,
         RecipeType.NULL, new ItemStack[]{
             null,null,null,
             null,null,null,
             null,null,null
         }).register(plugin);
 
-        new SlimefunItem(GROUP_NETWORK, Network.NET_CHUNK_PUSHER,
+        new SlimefunItem(GROUP_CRAFT, Craft.ENERGY_CONDITION_BLOCK,
         RecipeType.NULL, new ItemStack[]{
             null,null,null,
             null,null,null,
             null,null,null
         }).register(plugin);
 
-        new SlimefunItem(GROUP_NETWORK, Network.DIMENSION_ITEM_LAUNCHER,
-        RecipeType.NULL, new ItemStack[]{
-            null,null,null,
-            null,null,null,
-            null,null,null
-        }).register(plugin);
-
-        new SlimefunItem(GROUP_NETWORK, Network.DIMENSION_ITEM_RECEIVER,
-        RecipeType.NULL, new ItemStack[]{
-            null,null,null,
-            null,null,null,
-            null,null,null
-        }).register(plugin);
-
-        new SlimefunItem(GROUP_NETWORK, Network.DIMENSION_ITEM_CONFIGURATOR,
+        new SlimefunItem(GROUP_CRAFT, Craft.ENERGY_CONNECT_BLOCK,
         RecipeType.NULL, new ItemStack[]{
             null,null,null,
             null,null,null,
