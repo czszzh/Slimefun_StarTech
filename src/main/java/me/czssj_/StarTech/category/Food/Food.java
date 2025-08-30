@@ -4,6 +4,8 @@ import org.bukkit.Color;
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemFlag;
+import org.bukkit.potion.PotionEffect;
+import org.bukkit.potion.PotionEffectType;
 
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 
@@ -55,20 +57,23 @@ public class Food
 
     public static final SlimefunItemStack LUCKY_POTION = new SlimefunItemStack(
         "SST_LUCKY_POTION",
-        Material.POTION,Color.GREEN,
+        Color.GREEN,
+        new PotionEffect(PotionEffectType.LUCK, 9600, 1),
         "§b幸运药剂"
     );
 
     public static final SlimefunItemStack UNLUCKY_POTION = new SlimefunItemStack(
         "SST_UNLUCKY_POTION",
-        Material.POTION,Color.GRAY,
+        Color.GRAY,
+        new PotionEffect(PotionEffectType.UNLUCK, 9600, 1),
         "§7厄运药剂"
     );
 
-    public static final SlimefunItemStack DECAY_POTION = new SlimefunItemStack(
-        "SST_DECAY_POTION",
-        Material.POTION,Color.BLACK,
-        "§4衰败药剂"
+    public static final SlimefunItemStack WITHER_POTION = new SlimefunItemStack(
+        "SST_WITHER_POTION",
+        Color.RED,
+        new PotionEffect(PotionEffectType.WITHER, 1200, 2),
+        "§c凋零药剂"
     );
 
     public static final SlimefunItemStack SHIP_BISCUIT = new SlimefunItemStack(
@@ -95,10 +100,10 @@ public class Food
         "§6可可饮"
     );
 
-    public static final SlimefunItemStack HEALTH_POTION = new SlimefunItemStack(
-        "SST_HEALTH_POTION",
+    public static final SlimefunItemStack HEALTH_INCREASE_POTION = new SlimefunItemStack(
+        "SST_HEALTH_INCREASE_POTION", 
         Material.POTION,Color.RED,
-        "§c生命爆发药剂"
+        "§c生命提升药剂"
     );
 
     public static final SlimefunItemStack TRUE_DAMAGE_POTION = new SlimefunItemStack(

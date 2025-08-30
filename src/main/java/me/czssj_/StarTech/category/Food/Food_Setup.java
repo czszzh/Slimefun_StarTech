@@ -67,7 +67,7 @@ public class Food_Setup
             null,null,null
         }).register(plugin);
 
-        new SlimefunItem(GROUP_FOOD, Food.DECAY_POTION,
+        new SlimefunItem(GROUP_FOOD, Food.WITHER_POTION,
         RecipeType.NULL, new ItemStack[]{
             null,null,null,
             null,null,null,
@@ -102,7 +102,7 @@ public class Food_Setup
             null,null,null
         }).register(plugin);
 
-        new SlimefunItem(GROUP_FOOD, Food.HEALTH_POTION,
+        new SlimefunItem(GROUP_FOOD, Food.HEALTH_INCREASE_POTION,
         RecipeType.NULL, new ItemStack[]{
             null,null,null,
             null,null,null,
