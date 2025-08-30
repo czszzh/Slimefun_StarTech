@@ -102,7 +102,7 @@ public class Food_Setup
             null,null,null
         }).register(plugin);
 
-        new SlimefunItem(GROUP_FOOD, Food.HEALTH_INCREASE_POTION,
+        new Health_Increase_Potion(GROUP_FOOD, Food.HEALTH_INCREASE_POTION,
         RecipeType.NULL, new ItemStack[]{
             null,null,null,
             null,null,null,
